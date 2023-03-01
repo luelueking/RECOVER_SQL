@@ -1,5 +1,6 @@
 package org.example;
 
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.*;
@@ -142,7 +143,8 @@ public class RecoverSQL {
                 column =  column + " VARCHAR(" + length + ")";
         }
         // 设置名为id的column为主键
-        if (column.equals("id VARCHAR(50)")) column = column + " PRIMARY KEY";
+        TableId tableId = f.getAnnotation(TableId.class);
+        if (tableId!=null) column = column + " PRIMARY KEY";
         return column;
     }
 
