@@ -44,8 +44,6 @@ import lombok.experimental.Accessors;
 
 @Data
 @TableName(value = "t_file", autoResultMap = true)
-@Accessors(chain = true)
-@EqualsAndHashCode(callSuper = false)
 public class FileDto extends BaseDto {
 	private String originalName;
 	private String fileName;
