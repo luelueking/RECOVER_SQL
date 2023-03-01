@@ -2,8 +2,8 @@
 Help people who generate sql by code . And Fuck script kiddies who only attack mysql weak passwords!
 ### Support Type
 - [X] Mybatis-Plus
-- [] Mybatis
-- [] ...
+- [ ] Mybatis
+- [ ] ...
 ### Use Example
 ```java
 package org.example.pojo.dto;
