@@ -53,7 +53,7 @@ public class FileDto extends BaseDto {
 	private Integer shared;
 }
 ```
-AND RUN https://github.com/luelueking/RECOVER_SQL/blob/main/FromMbatisPlus.java ,YOU WILL GET SQL LIKE THIS
+AND RUN [script](https://github.com/luelueking/RECOVER_SQL/blob/main/FromMybatisPlus.java) ,YOU WILL GET SQL LIKE THIS
 ```sql
 drop table if exists t_file;
 
