@@ -71,24 +71,4 @@ thumb_file_path VARCHAR(50),
 storage_type INTEGER , 
 shared INTEGER 
 ) ENGINE = INNODB DEFAULT CHARSET = utf8;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ava
-
+```
