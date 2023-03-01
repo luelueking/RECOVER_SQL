@@ -53,7 +53,7 @@ public class FileDto extends BaseDto {
 	private Integer shared;
 }
 ```
-AND RUN ,YOU WILL GET LIKE THIS
+AND RUN https://github.com/luelueking/RECOVER_SQL/blob/main/FromMbatisPlus.java ,YOU WILL GET SQL LIKE THIS
 ```sql
 drop table if exists t_file;
 
@@ -71,8 +71,6 @@ thumb_file_path VARCHAR(50),
 storage_type INTEGER , 
 shared INTEGER 
 ) ENGINE = INNODB DEFAULT CHARSET = utf8;
-```
-
 
 
 
